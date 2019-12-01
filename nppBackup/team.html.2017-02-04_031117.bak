@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+  <head>
+		<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon" />
+		<title>Our Team | Aspiron Web Solutions</title>
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Custom styles for this template -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		
+<!----------------Scroller------------------->
+<style type="text/css">
+#marqueecontainer{
+position: relative;
+width: 250px; /*marquee width */
+height: 220px; /*marquee height */
+background-color: background:#2f2f2f;
+overflow: hidden;
+padding: 2px;
+padding-left: 4px;
+}
+</style>
+<script src="js1/marq.js"></script>
+<!----------------End  Scroller    ------------------->
+			<script src="js1/owl.carousel.js"></script>
+			<link href="js1/owl.carousel.css" rel="stylesheet">
+			<link href="js1/owl.theme.css" rel="stylesheet">
+
+	<!---  Tab Slide Out 
+		<script src="js1/jquery.tabSlideOut.v1.3.js"></script>
+  
+		<script>
+		$(function(){
+             $('.slide-out-div').tabSlideOut({
+                 tabHandle: '.handle',                              //class of the element that will be your tab
+                 pathToTabImage: 'images/contact_tab.gif',          //path to the image for the tab (optionaly can be set using css)
+                 imageHeight: '122px',                               //height of tab image
+                 imageWidth: '40px',                               //width of tab image    
+                 tabLocation: 'left',                               //side of screen where tab lives, top, right, bottom, or left
+                 speed: 300,                                        //speed of animation
+                 action: 'click',                                   //options: 'click' or 'hover', action to trigger animation
+                 topPos: '200px',                                   //position from the top
+                 fixedPosition: false                               //options: true makes it stick(fixed position) on scroll
+             });
+         });
+         </script>
+   
+   <script type="text/javascript">
+			    function toggle_visibility(id) {
+			       var e = document.getElementById(id);
+			       if(e.style.display == 'block')
+			          e.style.display = 'none';
+			       else
+			          e.style.display = 'block';
+			    }
+	
+		</script>
+	
+	<!---  Over Tab Slide Out --->
+		
+	<!-- menu --->	
+	<script>
+	jQuery(document).ready(function(){
+	jQuery(".menu-trigger").click(function() {
+	jQuery(".nav-menu").slideToggle(400,function(){
+	jQuery(this).toggleClass("nav-expanded").css('display','');
+	});
+	});
+	});
+	</script>	
+	<!-- menu --->
+
+	
+
+		
+		
+</head>
+
+
+<!--------------------------------------------- body start ----------------------------------------------------------------->
+
+<body>
+  
+		<div id="header-holder">
+			<div class="container-fluid">
+				<div class="row">
+					
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 pull-left">
+					<div class="email">
+					<img src="images/email.png" height="12" class="mail">
+					<p>Email: info@aspironweb.com</p>
+					</div>
+					</div>
+
+				
+						
+					<div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 pull-right">
+					<div class="number">
+					<img src="images/phone-grey.png" height="15" class="phone">
+					<p>Baroda: +91 88667 64495</p>
+					</div>
+					<div class="number">
+					<img src="images/phone-grey.png" height="15" class="phone">
+                    <p>Mumbai: +91 90049 59366</p>
+					</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div id="header">
+		<div class="container-fluid">
+			<div class="row">
+				
+				
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				
+						<div class="logo">
+						<a href="index.html"><img src="img/logo1.png" height="60" alt="Aspiron Web Solutions" /></a>
+						</div>
+			<span class="menu-trigger">MENU</span>
+				
+				<div class="nav-menu">
+					<ul class="clea">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li class="highlight"><a href="services.html">Our Services</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="hosting.html">Hosting</a></li>
+					<li><a href="#">Packages</a>.
+						<ul class="sub">
+								<li><a href="webdesign_packages.html">Web Design Packages</a></li>
+								<li><a href="corporate_identity_packages.html">Corporate Identity Packages</a></li>
+
+						</ul>	
+					</li>
+					<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</div>
+					
+				</div>	
+				
+				
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Header -->
+			
+			<div class="page-divider">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-md-12 col-sm-12">
+					<div class="page-divider-title">
+					<h20>Our Team</h20>
+					</div>
+					
+					<div class="page-divider-breadcrumbs">
+					<p class="bread">Home / <span>Our Team </span></p>
+					</div>
+				</div>
+				
+			</div>
+			</div>
+			</div>
+		
+		
+<!--				<img src="img/icons/1.png" height="50" class="final-img"> -->
+
+			<div class="final2">
+			<div class="container">
+			<div class="row">
+			
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+				<div class="profile-card">
+				<div class="card-top">
+				<div class="card-top-left">
+				<img src="img/team/dhaivat.png"  class="profile-img">
+				</div>
+				<div class="card-top-right">
+				<h4>Dhaivat Parikh</h4><br>
+				<h8>CEO</h8>	
+				</div>
+				</div>
+				<div class="card-middle">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+				</div>
+				<div class="card-bottom">
+				</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+				<div class="profile-card">
+				<div class="card-top">
+				<div class="card-top-left">
+				<img src="img/team/viraj.png"  class="profile-img">
+				</div>
+				<div class="card-top-right">
+				<h4>Viraj Agrawal</h4><br>
+				<h8>BDM</h8>	
+				</div>
+				</div>
+				<div class="card-middle">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+				</div>
+				<div class="card-bottom">
+				</div>
+				</div>
+			</div>
+		
+			<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+				<div class="profile-card">
+				<div class="card-top">
+				<div class="card-top-left">
+				<img src="img/team/viraj.png"  class="profile-img">
+				</div>
+				<div class="card-top-right">
+				<h4>Viraj Agrawal</h4><br>
+				<h8>BDM</h8>	
+				</div>
+				</div>
+				<div class="card-middle">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+				</div>
+				<div class="card-bottom">
+				</div>
+				</div>
+			</div>
+			
+				
+				
+			</div>	
+			</div>	
+			</div>
+				
+				
+						
+				
+<div id="footer">
+<div class="footer-main">
+
+<div class="container-fluid">
+<div class="row">
+	   
+	   <div class="col-lg-3 col-md-6 col-sm-6">
+	   <div class="footer-first">
+	    
+	   <h17>Get in Touch</h17>
+	  
+		<p class="promo">Do not hesitate to contact us if you have any questions or feature requests:</p>
+		<div class="footer-first-box">
+		<img src="img/phone.png" height="20" style="cursor:default;"/>
+		<p class="left">&nbsp;<a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');">Request Callback</a></p>
+	
+
+				<div id="popupBoxOnePosition">
+				<div class="popupBoxWrapper">
+				<div class="popupBoxContent">
+				<input style="float:right; font-size:12px;" a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition');" value="Close" class="myButton1" id="contact_form_formsend" /> <br />  
+				<div class="container">
+				<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+				<p>We would like to solve your  <br/> queries as soon as possible</p>
+				<br />  
+				<form id="contactform" method="post" class="content-form" action="Sendmail_call.php">						
+				<div class="input-group input-group-sm">
+				<span class="input-group-addon" id="sizing-addon6">Name :</span>
+				<input type="text" class="form-control" name="name" placeholder="Enter your name" aria-describedby="sizing-addon3">
+				</div>
+				</br>
+				<div class="input-group input-group-sm">
+				<span class="input-group-addon" id="sizing-addon6">Phone :</span>
+				<input type="text" class="form-control"  name="phone" placeholder="eg. 88667 64495" aria-describedby="sizing-addon3">
+				</div>
+				</br>
+				<div class="input-group input-group-sm">
+				<span class="input-group-addon" id="sizing-addon6">Email :</span>
+				<input type="text" class="form-control" name="email" placeholder="eg.xyz@anymail.com" aria-describedby="sizing-addon3">
+				</div>
+				</br>
+				<div class="form-group">
+				<label for="message">Question:</label>
+				<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
+				</div>
+				</br>
+				<input type="submit" name="submit" value="Send Message" class="myButton" id="contact_form_formsend" /> <br />  
+				<p id="message-outcome"></p>
+				</form>		           
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		
+		
+		</div>
+	   
+	   <div class="footer-first-box">
+	 <img src="img/cof.png" height="20" style="cursor:default;"/>
+		<p class="left">&nbsp;<a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition1');">Coffee with us</a></p>
+	
+		 
+		<div id="popupBoxOnePosition1">
+			<div class="popupBoxWrapper1">
+				<div class="popupBoxContent1">
+				
+						<input style="float:right; font-size:12px;" a href="javascript:void(0)" onclick="toggle_visibility('popupBoxOnePosition1');" value="Close" class="myButton1" id="contact_form_formsend" /> <br />  
+			
+
+					<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+					<p>We would like to have a coffee  <br/> with you and discuss over your project</p>
+					<br />  
+					<form id="contactform" method="post" class="content-form" action="Sendmail_coffee.php"><div class="input-group input-group-sm">
+					<span class="input-group-addon" id="sizing-addon6">Name :</span>
+					<input type="text" class="form-control" name="name" placeholder="Enter your name" aria-describedby="sizing-addon3">
+					</div>
+					</br>
+				
+					
+				<div class="input-group input-group-sm">
+				<span class="input-group-addon" id="sizing-addon6">Phone :</span>
+				<input type="text" class="form-control"  name="phone" placeholder="eg. 88667 64495" aria-describedby="sizing-addon3">
+				</div>
+				</br>
+				
+				<div class="input-group input-group-sm">
+				<span class="input-group-addon" id="sizing-addon6">Email :</span>
+				<input type="text" class="form-control" name="email" placeholder="eg.xyz@anymail.com" aria-describedby="sizing-addon3">
+				</div>
+				</br>
+				
+				<div class="form-group">
+				<label for="message">Question:</label>
+				<textarea class="form-control" name="message" rows="5" id="comment"></textarea>
+				</div>
+				</br>
+					
+				<input type="submit" name="submit" value="Send Message" class="myButton" id="contact_form_formsend" /> <br />  
+
+				<p id="message-outcome"></p>
+				
+			</form>		           
+
+	</div>
+	</div>
+	</div>
+						
+						
+						
+						
+						
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	   </div>
+
+	   
+	   
+
+		<div class="footer-first-box">
+		<img src="img/q.png" height="20" style="cursor:default;"/>
+		<p class="left">&nbsp; Request a Quote</p>
+		</div>
+	
+		
+		<div class="footer-first-box">
+		<img src="img/d1.png" height="20" style="cursor:default;"/>
+		<p class="left">&nbsp;Download E - Brochure</p>
+		</div>
+
+
+  
+	   </div>
+	   </div>
+	   
+
+	   
+	   
+	   <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+	   <div class="footer-second">
+		<h17>News</h17>
+		<div class="footer-second-in">
+		
+		<div id="marqueecontainer" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">
+		<div id="vmarquee" style="position: absolute; width: 98%;">
+
+		<!--YOUR SCROLL CONTENT HERE-->
+		<h11> -> Professional website</h11>
+		<p class="promo">Now a professional website at everybody's reach. Aspiron Web Solutions introduced an affordable website plan.<br><a style="color:#E4A03B;" href="basicplan.html">Know more...</a></p>
+		
+		<div class="footer-border-1"></div>
+		
+		
+		<h11> -> E-commerce Website</h11>
+		<p class="promo">Make your business global, Sell your products worldwide. We provide an affordable E-commerce website at an affordable price.<br><a style="color:#E4A03B;" href="Eplan.html">Know more...</a></p>
+		
+		<div class="footer-border-1"></div>
+		
+		<h11> -> Hosting Plans</h11>
+		<p class="promo">A Hosting Plan that suits everybody check out our Wide range of hosting plans.<br><a style="color:#E4A03B;" href="hostingplans.html">Know more...</a></p>
+		
+		
+		<!--YOUR SCROLL CONTENT HERE-->
+
+        </div>
+		</div>
+ </div>
+						
+						
+	   </div>
+	   </div>
+	   <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+	   <div class="footer-third">
+	   	<h17>Testemonials</h17>
+	    <div class="footer-third-in">
+			<p class="tsm"><span3>"</span3> Your company has exceeded my expectations once again! Never expected to get such a powerful-functionality website for this little money! </p>
+			
+			<p class="client"><img src="images/man.jpg" class="man1">Mr. Jayeshbhai V. Prajapati Owner, <span4>Narayan Timber Works</span4>
+			</p>
+		<div class="footer-border"></div>
+
+				<!-- <p class="tsm">I have been very satisfied with all aspects of your company so far.The Web Design was perfect and results were amazing!</p> -->
+				
+	   </div>
+	   </div>
+	   </div>
+	   
+	   <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+	   <div class="footer-fourth">
+	   	<h17>Contact Us</h17>
+		<div class="footer-fourth-in">
+		<p class="addr"><span>Mumbai Address:</span><br> C/404, saraswati Bldg, vasant sagar complex, thakur village, kandivali East, Mumbai 400101
+		<br><span2>Mobile No: +91 90049 59366</span2>
+		</p>
+		
+		<p class="addr"><span>Vadodara Address:</span><br> 409 Narmada Appartment, Navrang complex, Raopura, Vadodara 390001
+		<br><span2>Mobile No: +91 88667 64495</span2>
+		</p>
+		
+		
+		<p class="addr">Email :-  info@aspironweb.com <br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aspironweb@gmail.com</p>
+	   </div>
+	   </div>
+	   
+	   </div>
+	   
+	   
+	   
+	   
+	   </div>
+	   </div>
+	    </div>
+	   
+	   <div id="footer-bottom">
+	   <div class="container">
+	   <div class="row">
+	   
+	    <!-- <div class="col-lg-12">
+			 <div class="footer-divider"></div>
+	      	 </div> -->
+		
+	
+
+		
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+		<div class="bottom-left">
+		<p class="creds">Aspiron Web Solutions © 2015 All rights reserved</p>
+		</div>
+		</div>
+		
+		<!--	<div class="slide-out-div">
+            <a class="handle" href="#">Content</a>
+            <h3>Contact me</h3>
+			<a href="mailto:wpaoli@gmail.com">wpaoli@gmail.com</a><br /><br />
+			<p>Thanks for checking out my jQuery plugin, I hope you find this useful.</p>
+			<p>This can be a form to submit feedback, or contact info</p>
+			</div> -->
+	
+		
+		<div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 pull-right">
+		<div class="nav-bottom-right">
+		
+		<ul>
+		
+		<li><a href="https://www.facebook.com/AspironWeb/" target="_blank"><span>Follow Us on Facebook</span></a></li> 
+		<!--<li><a href="#"><span>|</span></a></li> 
+		 <li><a href="team.html"><span>Our Team</span></a></li> -->
+		</ul>
+		
+		</div>
+		</div>
+    
+	</div>
+	
+	</div>
+	   </div>
+	   
+	   
+	
+</div>	
+</div>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10.js"></script>
+  </body>
+</html>
